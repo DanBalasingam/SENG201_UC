@@ -1,0 +1,20 @@
+package lab1;
+
+public class StarmanSays {
+
+    public String sayHello() {
+        return "Hello";
+    }
+
+    public String sayDontPanic() {
+        return "Don't Panic!";
+    }
+
+    public String sayJavaCool() {
+        return "Java is cool";
+    }
+
+    public String sayGoodbyeWorld() {
+        return "Goodbye, World!";
+    }
+}
