@@ -27,3 +27,7 @@ public class MarsHoliday {
         System.out.println("Pat pat pat\nCuriosity seems happy");
     }
 }
+
+enum MarsActivities {
+    MOUNTAINS, VALLEYS, ICE_CAPS, CURIOSITY, RED_SAND
+}
