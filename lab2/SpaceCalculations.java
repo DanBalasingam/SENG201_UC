@@ -1,4 +1,4 @@
-package lab1;
+package lab2;
 
 /* 
 This class will be used to implement methods that test expressions. Implement the following methods (remember to first sketch a UML class diagram and implementing/testing and running your solution in IntelliJ before submitting your answer):

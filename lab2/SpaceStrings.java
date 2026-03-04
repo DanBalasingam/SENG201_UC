@@ -1,4 +1,4 @@
-package lab1;
+package lab2;
 
 /*
  int getStringLength(String str), a method that returns the length of a String.

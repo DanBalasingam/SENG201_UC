@@ -2,13 +2,15 @@ package lab2;
 
 public class Tester {
 
-    public void main() {
-        StarmanFixes wheelnut = new StarmanFixes();
+    void main() {
+        SpaceCalculations space = new SpaceCalculations();
 
-        wheelnut.setOneTurn(1);
-        wheelnut.tightenQuarter();
-        wheelnut.tightenHalf();
-        wheelnut.tightenFull();
-        System.out.println(wheelnut.getTightenAmount());
+        System.out.println(space.addition(10, 4));
+        System.out.println(space.subtraction(32, 20));
+        System.out.println(space.multiplication(7, 6));
+        System.out.println(space.intDivision(9, 4));
+        System.out.println(space.floatDivision(9, 4));
+        System.out.println(space.circumference(8.75));
+        System.out.println(space.toAU(1337133713371337.0));
     }
 }
