@@ -1,6 +1,6 @@
 package lab3;
 
-public class LiftOffWatch {
+public class LiftoffWatch {
 
     private double temprature;
     private String weather;

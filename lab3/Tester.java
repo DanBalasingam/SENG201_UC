@@ -3,10 +3,11 @@ package lab3;
 public class Tester {
 
     public static void main(String[] args) {
-        LiftOffWatch watch = new LiftOffWatch();
-        watch.setTemp(16.5);
-        watch.setWeather("Sunny");
-        watch.setWind(60.1);
-        System.out.println(watch.canWeLaunch());
+        MarsHoliday holiday = new MarsHoliday();
+        holiday.activityChooser(MarsActivities.MOUNTAINS);
+        holiday.activityChooser(MarsActivities.VALLEYS);
+        holiday.activityChooser(MarsActivities.ICE_CAPS);
+        holiday.activityChooser(MarsActivities.CURIOSITY);
+        holiday.activityChooser(MarsActivities.RED_SAND);
     }
 }
