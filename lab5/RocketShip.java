@@ -1,0 +1,43 @@
+package lab5;
+
+public class RocketShip {
+    public static final int MAX_FUEL_LEVEL = 100;
+
+    private int fuelLevel;
+    private int currentHeight;
+
+    public RocketShip(int fuelLevel) {
+        this.fuelLevel = fuelLevel;
+        this.currentHeight = 0;
+    }
+
+    public int getFuelLevel() {
+        return fuelLevel;
+    }
+
+    public int getCurrentHeight() {
+        return currentHeight;
+    }
+
+    public void fuelUp(int fuelAmount) {
+        fuelLevel += fuelAmount;
+    }
+
+    public void takeOff() {
+        fuelLevel -= 20;
+        currentHeight += 20;
+    }
+
+    public void goHigher() {
+        fuelLevel -= 10;
+        currentHeight += 50;
+    }
+
+    public void goLower() {
+        currentHeight -= 50;
+    }
+
+    public void land() {
+        currentHeight = 0;
+    }
+}
